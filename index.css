@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Misans";
-  src: url("../other/MiSans-Heavy.ttf");
+  src: url("./other/MiSans-Heavy.ttf");
   font-weight: 900;
 }
 
@@ -16,7 +16,7 @@
 
 body {
   margin: 0;
-  background: radial-gradient(58.01% 58.01% at 77.71% 0%, rgba(248, 148, 56, 0.6) 0%, rgba(248, 148, 56, 0) 100%), url("../img/bg.svg"), radial-gradient(100% 100% at 50% 0%, #F86638 0%, rgba(248, 102, 56, 0) 100%), #F6F6F6;
+  background: radial-gradient(58.01% 58.01% at 77.71% 0%, rgba(248, 148, 56, 0.6) 0%, rgba(248, 148, 56, 0) 100%), url("./img/bg.svg"), radial-gradient(100% 100% at 50% 0%, #F86638 0%, rgba(248, 102, 56, 0) 100%), #F6F6F6;
   font-family: "PingFang SC", Apple System, "SF Pro SC", "SF Pro Display", "Helvetica Neue", "Arial", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", sans-serif;
 }
 
@@ -200,7 +200,7 @@ body {
   height: 32px;
   width: 32px;
   border-radius: 50%;
-  background: url(../img/tseng.jpg);
+  background: url(./img/tseng.jpg);
   background-size: cover;
 }
 
